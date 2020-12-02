@@ -5,12 +5,29 @@ import epi.test_framework.TestFailure;
 public class StringIntegerInterconversion {
 
   public static String intToString(int x) {
-    // TODO - you fill in here.
-    return "0";
+    StringBuilder sb = new StringBuilder();
+    boolean neg = false;
+    if (x < 0)
+      neg = true;
+    do {
+      sb.append((char) ('0' + Math.abs(x % 10)));
+      x /= 10;
+    } while (x != 0);
+    if (neg)
+      sb.append('-');
+    return sb.reverse().toString();
   }
   public static int stringToInt(String s) {
-    // TODO - you fill in here.
-    return 0;
+    int res = 0;
+    boolean neg = false;
+    for (int i = 0; i < s.length(); i++) {
+      res *= 10;
+      if (s.charAt(i) == '-')
+        neg = true;
+      else if (s.charAt(i) != '+')
+        res += s.charAt(i) - '0';
+    }
+    return res * ((neg) ? -1 : 1);
   }
   @EpiTest(testDataFile = "string_integer_interconversion.tsv")
   public static void wrapper(int x, String s) throws TestFailure {
