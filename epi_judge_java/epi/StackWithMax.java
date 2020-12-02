@@ -4,25 +4,34 @@ import epi.test_framework.EpiUserType;
 import epi.test_framework.GenericTest;
 import epi.test_framework.TestFailure;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.List;
 import java.util.NoSuchElementException;
 public class StackWithMax {
-
+  /*
+  I've seen this before - just need another stack that tracks the current max
+  That stack will grow and shrink with the main stack, as we will always push the current max when push is called
+  Keeps all operations to O(1).
+   */
   public static class Stack {
+    Deque<Integer> s = new ArrayDeque();
+    // Tracks the max corresponding to each value of s
+    Deque<Integer> maxS = new ArrayDeque();
     public boolean empty() {
-      // TODO - you fill in here.
-      return true;
+      return s.isEmpty();
     }
     public Integer max() {
-      // TODO - you fill in here.
-      return 0;
+      return maxS.peek();
     }
     public Integer pop() {
-      // TODO - you fill in here.
-      return 0;
+      maxS.pop();
+      return s.pop();
     }
     public void push(Integer x) {
-      // TODO - you fill in here.
+      // Either repush current max into maxS, or use x if larger
+      maxS.push(Math.max(maxS.peek(), x));
+      s.push(x);
       return;
     }
   }
