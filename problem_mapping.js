@@ -1218,7 +1218,7 @@ problem_mapping = {
                 "total": 152
             },
             "Java: SortedArraysMerge.java": {
-                "passed": 0,
+                "passed": 152,
                 "total": 152
             },
             "Python: sorted_arrays_merge.py": {
