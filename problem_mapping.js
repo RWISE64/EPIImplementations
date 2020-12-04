@@ -472,7 +472,7 @@ problem_mapping = {
                 "total": 10000
             },
             "Java: IsStringPalindromic.java": {
-                "passed": 0,
+                "passed": 99,
                 "total": 10000
             },
             "Python: is_string_palindromic.py": {
@@ -1460,7 +1460,7 @@ problem_mapping = {
                 "total": 305
             },
             "Java: IsStringPermutableToPalindrome.java": {
-                "passed": 0,
+                "passed": 305,
                 "total": 305
             },
             "Python: is_string_permutable_to_palindrome.py": {
