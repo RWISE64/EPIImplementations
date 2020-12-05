@@ -38,10 +38,8 @@ public class IsTreeABst {
 //    /*
 //    First implementation, just recursively iterate while tracking max and min
 //    Time Complexity: O(n), where n = # of nodes
-//    Space Complexity: O(h), where h = height. Allegedly at least. I know the storage is based on the recursive stack calls,
-//    but I can't quite wrap my head around why that'd be limited to the height. I just think the number of calls would be
-//    much greater than h if two calls might be made per isBSTRec call
-//     */
+//    Space Complexity: O(h), where h = height, as the short-circuit at the end should prevent multiple branches,
+//    resulting in a depth-first search. The maximum amount of calls on the stack should be the deepest point of the tree.
 //    public static boolean isBinaryTreeBST(BinaryTreeNode<Integer> tree) {
 //        // This kinda fails if the value of root is the max or min int, but we're gonna ignore that
 //        return isBSTRec(tree, Integer.MIN_VALUE, Integer.MAX_VALUE);
