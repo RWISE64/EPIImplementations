@@ -2336,7 +2336,7 @@ problem_mapping = {
                 "total": 500
             },
             "Java: TaskPairing.java": {
-                "passed": 0,
+                "passed": 500,
                 "total": 500
             },
             "Python: task_pairing.py": {
