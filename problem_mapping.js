@@ -104,7 +104,7 @@ problem_mapping = {
                 "total": 10002
             },
             "Java: PowerXY.java": {
-                "passed": 0,
+                "passed": 10002,
                 "total": 10002
             },
             "Python: power_x_y.py": {
