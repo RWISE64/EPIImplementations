@@ -2152,7 +2152,7 @@ problem_mapping = {
                 "total": 1003
             },
             "Java: NumberOfScoreCombinations.java": {
-                "passed": 0,
+                "passed": 1003,
                 "total": 1003
             },
             "Python: number_of_score_combinations.py": {
