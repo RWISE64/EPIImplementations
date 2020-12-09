@@ -344,7 +344,7 @@ problem_mapping = {
                 "total": 8
             },
             "Java: OfflineSampling.java": {
-                "passed": 0,
+                "passed": 8,
                 "total": 8
             },
             "Python: offline_sampling.py": {
