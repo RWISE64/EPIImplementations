@@ -500,7 +500,7 @@ problem_mapping = {
                 "total": 20001
             },
             "Java: ConvertBase.java": {
-                "passed": 0,
+                "passed": 20001,
                 "total": 20001
             },
             "Python: convert_base.py": {
