@@ -2166,7 +2166,7 @@ problem_mapping = {
                 "total": 100
             },
             "Java: LevenshteinDistance.java": {
-                "passed": 0,
+                "passed": 101,
                 "total": 100
             },
             "Python: levenshtein_distance.py": {
