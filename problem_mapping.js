@@ -428,7 +428,7 @@ problem_mapping = {
                 "total": 51
             },
             "Java: SpiralOrdering.java": {
-                "passed": 0,
+                "passed": 51,
                 "total": 51
             },
             "Python: spiral_ordering.py": {
@@ -2166,7 +2166,7 @@ problem_mapping = {
                 "total": 100
             },
             "Java: LevenshteinDistance.java": {
-                "passed": 101,
+                "passed": 100,
                 "total": 100
             },
             "Python: levenshtein_distance.py": {
