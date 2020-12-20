@@ -2418,7 +2418,7 @@ problem_mapping = {
                 "total": 202
             },
             "Java: RefuelingSchedule.java": {
-                "passed": 0,
+                "passed": 202,
                 "total": 202
             },
             "Python: refueling_schedule.py": {
