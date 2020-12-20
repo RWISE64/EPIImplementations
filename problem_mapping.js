@@ -1828,7 +1828,7 @@ problem_mapping = {
                 "total": 949
             },
             "Java: KLargestValuesInBst.java": {
-                "passed": 0,
+                "passed": 949,
                 "total": 949
             },
             "Python: k_largest_values_in_bst.py": {
