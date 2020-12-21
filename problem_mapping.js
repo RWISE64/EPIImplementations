@@ -204,7 +204,7 @@ problem_mapping = {
                 "total": 505
             },
             "Java: IntAsArrayIncrement.java": {
-                "passed": 0,
+                "passed": 505,
                 "total": 505
             },
             "Python: int_as_array_increment.py": {
