@@ -1020,7 +1020,7 @@ problem_mapping = {
                 "total": 3852
             },
             "Java: IsTreeSymmetric.java": {
-                "passed": 0,
+                "passed": 3852,
                 "total": 3852
             },
             "Python: is_tree_symmetric.py": {
