@@ -1246,7 +1246,7 @@ problem_mapping = {
                 "total": 101
             },
             "Java: SortAlmostSortedArray.java": {
-                "passed": 0,
+                "passed": 101,
                 "total": 101
             },
             "Python: sort_almost_sorted_array.py": {
@@ -1332,7 +1332,7 @@ problem_mapping = {
                 "total": 307
             },
             "Java: SearchShiftedSortedArray.java": {
-                "passed": 0,
+                "passed": 307,
                 "total": 307
             },
             "Python: search_shifted_sorted_array.py": {
