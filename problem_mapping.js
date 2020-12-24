@@ -1686,7 +1686,7 @@ problem_mapping = {
                 "total": 97
             },
             "Java: CalendarRendering.java": {
-                "passed": 0,
+                "passed": 97,
                 "total": 97
             },
             "Python: calendar_rendering.py": {
