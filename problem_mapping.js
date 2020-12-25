@@ -1842,7 +1842,7 @@ problem_mapping = {
                 "total": 951
             },
             "Java: LowestCommonAncestorInBst.java": {
-                "passed": 0,
+                "passed": 951,
                 "total": 951
             },
             "Python: lowest_common_ancestor_in_bst.py": {
