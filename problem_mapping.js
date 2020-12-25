@@ -2012,7 +2012,7 @@ problem_mapping = {
                 "total": 8
             },
             "Java: Permutations.java": {
-                "passed": 0,
+                "passed": 8,
                 "total": 8
             },
             "Python: permutations.py": {
