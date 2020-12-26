@@ -2180,7 +2180,7 @@ problem_mapping = {
                 "total": 1775
             },
             "Java: NumberOfTraversalsMatrix.java": {
-                "passed": 0,
+                "passed": 1775,
                 "total": 1775
             },
             "Python: number_of_traversals_matrix.py": {
