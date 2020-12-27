@@ -556,7 +556,7 @@ problem_mapping = {
                 "total": 103
             },
             "Java: ReverseWords.java": {
-                "passed": 0,
+                "passed": 103,
                 "total": 103
             },
             "Python: reverse_words.py": {
